@@ -149,25 +149,30 @@ p {
 /* Adapta o layout para telas pequenas */
 @media (max-width: 768px) {
     h1 {
-        font-size: 36px;
+        font-size: 25px;
     }
     
     h2 {
-        font-size: 20px;
+        font-size: 218px;
     }
 
     h3 {
-        font-size: 18px;
+        font-size: 16px;
     }
 
     .images img {
-        max-width: 100px; /* Ajusta o tamanho das imagens para telas menores */
+        max-width: 75px; /* Ajusta o tamanho das imagens para telas menores */
     }
 }
 
 /* Adapta o layout para telas grandes */
-@media (min-width: 769px) {
+@media (min-width: 1440px) {
     .images img {
-        max-width: 200px; /* Ajuste conforme necessário para telas maiores */
+        max-width: 150px; /* Ajuste conforme necessário para telas maiores */
+    }
+    .container {
+        max-width: 900px;
+        margin: 0 auto;
+        padding: 20px;
     }
 }
