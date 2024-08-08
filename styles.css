@@ -65,10 +65,9 @@ h3 {
 }
 
 .modal-content {
-    margin: auto;
-    display: block;
-    max-width: 80%;
-    max-height: 80%;
+    display: inline-block; /* Para a centralização correta */
+    max-width: 90%; /* Ajuste para desktop */
+    max-height: 90%;
     animation-name: zoom;
     animation-duration: 0.6s;
 }
@@ -163,5 +162,12 @@ p {
 
     .images img {
         max-width: 100px; /* Ajusta o tamanho das imagens para telas menores */
+    }
+}
+
+/* Adapta o layout para telas grandes */
+@media (min-width: 769px) {
+    .images img {
+        max-width: 200px; /* Ajuste conforme necessário para telas maiores */
     }
 }
