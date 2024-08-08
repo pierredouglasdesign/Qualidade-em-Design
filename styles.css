@@ -28,7 +28,7 @@ h2 {
     font-weight: 600;
 }
 
-h3{
+h3 {
     font-size: 20px;
     margin-top: 10px;
     font-weight: 500;
@@ -37,13 +37,15 @@ h3{
 /* Estilo das imagens */
 .images {
     display: flex;
+    flex-wrap: wrap; /* Permite que as imagens se movam para a linha seguinte se não caberem em uma linha */
     justify-content: center;
     gap: 10px;
     margin-bottom: 10px;
 }
 
 .images img {
-    max-width: 100px;
+    max-width: 100%; /* Garante que a imagem não exceda a largura do contêiner */
+    height: auto; /* Mantém a proporção da imagem */
     cursor: pointer;
     transition: transform 0.3s ease;
 }
@@ -144,6 +146,8 @@ p {
     margin-top: 10px;
     font-size: 16px;
 }
+
+/* Adapta o layout para telas pequenas */
 @media (max-width: 768px) {
     h1 {
         font-size: 36px;
