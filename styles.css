@@ -63,7 +63,7 @@ h3 {
     background-color: rgba(0, 0, 0, 0.8);
     text-align: center;
     justify-content: center;
-    align-items: center; /* o justify-content e align center foi o que faltou da última vez pra eu conseguir alinhar/*
+    
 }
 
 .modal-content {
@@ -71,6 +71,7 @@ h3 {
     max-height: 90%;
     animation-name: zoom;
     animation-duration: 0.6s;
+    margin-top: 2%;
 }
 
 /* Animação de zoom */
@@ -164,6 +165,16 @@ p {
     .images img {
         max-width: 100px; /* Ajusta o tamanho das imagens para telas menores */
     }
+
+    .modal-content {
+        max-width: 90%; 
+        max-height: 80%;
+        animation-name: zoom;
+        animation-duration: 0.6s;
+        margin-top: 20%;
+    }
+
+
 }
 
 /* Adapta o layout para telas grandes */
