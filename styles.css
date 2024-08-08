@@ -62,10 +62,11 @@ h3 {
     overflow: auto;
     background-color: rgba(0, 0, 0, 0.8);
     text-align: center;
+    justify-content: center;
+    align-items: center; /* o justify-content e align center foi o que faltou da última vez pra eu conseguir alinhar/*
 }
 
 .modal-content {
-    display: inline-block; /* Para a centralização correta */
     max-width: 90%; /* Ajuste para desktop */
     max-height: 90%;
     animation-name: zoom;
