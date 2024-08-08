@@ -153,7 +153,7 @@ p {
     }
     
     h2 {
-        font-size: 218px;
+        font-size: 18px;
     }
 
     h3 {
@@ -161,7 +161,7 @@ p {
     }
 
     .images img {
-        max-width: 75px; /* Ajusta o tamanho das imagens para telas menores */
+        max-width: 100px; /* Ajusta o tamanho das imagens para telas menores */
     }
 }
 
